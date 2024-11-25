@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+:root {
+  --primary: #0200cd;
+  --secondary: #007bff;
+  --grey: #dfdfdf;
+  --third: #e2f4ff;
+  --light: #fff;
+  --dark: #000;
+  --greenLight: #c4ffb8;
+  --greenDark: #199500;
+  --redLight: #ffb8b8;
+  --redDark: #950000;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: "Inter", sans-serif;
+}
+
+/* ! Layout ========================================================================================*/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  margin-bottom: 100px;
+  padding: 0px 10%;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 100px 0px;
+}
+
+.gridItems {
+  align-self: center;
+  justify-self: center;
+}
+
+/* ! Text ========================================================================================*/
+
+.lg-txt {
+  font-size: clamp(40px, 5vw, 90px);
+  font-weight: 800;
+}
+
+.md-txt {
+  font-size: 24px;
+}
+.sm-txt {
+  font-size: 18px;
+}
+
+.xs-txt {
+  font-size: 14px;
+}
+.hero {
+  font-weight: 800;
+  font-size: clamp(30px, 6vw, 36px);
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+/* ! Buttons ========================================================================================*/
+
+.btn {
+  padding: 10px 15px;
+  background: var(--primary);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--light);
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+.link-btn:hover {
+  transform: translateY(-3px) scale(105%);
+}
+
+.btn-container {
+  display: flex;
+}
+
+/* ! Forms ========================================================================================*/
+
+.search {
+  margin-bottom: 10px;
+  border: 1px solid var(--grey);
+  height: 30px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.search:focus {
+  outline: 2px solid var(--primary);
+}
+
+/* ! Components =================================================================================== */
+.property-card {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.property-card-img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.property-card-img:hover {
+  transform: scale(102%);
+}

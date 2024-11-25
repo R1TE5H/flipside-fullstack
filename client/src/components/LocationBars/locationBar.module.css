@@ -1,0 +1,10 @@
+.locationBar {
+  width: 10%;
+  border-radius: 100px;
+  transition: 0.5s ease;
+}
+
+.locationBar:hover {
+  width: 40%;
+  border-radius: 50px;
+}

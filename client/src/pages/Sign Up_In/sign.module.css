@@ -1,0 +1,65 @@
+.alert {
+  color: red;
+}
+
+.form {
+  padding: 50px;
+  width: 100%;
+}
+
+.container {
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+  width: clamp(300px, 90%, 500px);
+  height: fit-content;
+}
+
+.input {
+  margin-bottom: 10px;
+  border: 1px solid var(--grey);
+  height: 30px;
+}
+.input:focus {
+  outline: 2px solid var(--primary);
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background: var(--grey);
+}
+
+.lineContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.submit {
+  padding: 10px 15px;
+  background: var(--primary);
+  border-radius: 100px;
+  text-decoration: none;
+  color: var(--light);
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.submit:hover {
+  background: var(--secondary);
+}
+
+.checkBox {
+  width: 60px;
+  height: 30px;
+}
+.checkBox:hover {
+  cursor: pointer;
+}
+
+.checkBox:checked {
+  background: var(--primary);
+}

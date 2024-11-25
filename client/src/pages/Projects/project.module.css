@@ -1,0 +1,22 @@
+.progress {
+  width: 100%;
+  height: 10px;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.progress::-webkit-progress-bar {
+  background-color: var(--third);
+  border-radius: 4px;
+}
+
+.progress::-webkit-progress-value {
+  background-color: var(--secondary);
+  border-radius: 4px;
+}
+
+.propertyProjections {
+  width: clamp(300px, 100%, 600px);
+  height: clamp(300px, 30rem, 600px);
+  border-radius: 20px;
+}

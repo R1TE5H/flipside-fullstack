@@ -1,0 +1,55 @@
+.background {
+  background: url(./landing//liquid-cheese.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero {
+  width: clamp(300px, 70%, 600px);
+}
+
+.cardContainer {
+  margin-bottom: 50px;
+  gap: 50px;
+  padding: 60px 10%;
+}
+
+.person {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  width: clamp(275px, 100%, 370px);
+  margin-bottom: 20px;
+  align-items: stretch;
+  background-color: var(--light);
+  transition: 0.2s ease-in-out;
+  z-index: 4;
+}
+.project {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  background-color: var(--light);
+  transition: 0.2s ease-in-out;
+}
+
+.person:hover,
+.project:hover {
+  box-shadow: var(--grey) 0px 8px 24px;
+  transform: scale(102%);
+}
+
+.benefitContainer {
+  background: var(--third);
+  border-radius: 20px;
+  width: fit-content;
+  padding: 40px;
+}
+
+.subscribe {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 20px;
+  padding: 50px 10px;
+  width: 100%;
+  max-width: 650px;
+}
